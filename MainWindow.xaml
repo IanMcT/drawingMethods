@@ -8,38 +8,6 @@
         Title="MainWindow" Height="350" Width="525">
     <Canvas x:Name="myGrid" Height="300" Width="300">
 
-        <!-- Draws a diagonal line from (10,10) to (50,50). -->
-<!--        <Line
-    X1="10" Y1="10"
-    X2="50" Y2="50"
-    Stroke="MediumSlateBlue"
-    StrokeThickness="4.5" />
--->
-        <!-- Draws a diagonal line from (10,10) to (50,50)
-       and moves it 100 pixels to the right. -->
-   <!--     <Line
-    X1="10" Y1="10"
-    X2="50" Y2="50"
-    StrokeThickness="40"
-    Canvas.Left="0"
-            Canvas.Top="50">
-            <Line.Stroke>
-                <RadialGradientBrush GradientOrigin="0.5,0.25" Center="0.5,0.5" RadiusX="10" RadiusY="0.75">
-                    <RadialGradientBrush.GradientStops>
-                        <GradientStop Color="Red" Offset="0" />
-                        <GradientStop Color="Gray" Offset="0.25" />
-                        <GradientStop Color="Salmon" Offset="0.5" />
-                    </RadialGradientBrush.GradientStops>
-                </RadialGradientBrush>
-            </Line.Stroke>
-        </Line>
--->
-        <!-- Draws a horizontal line from (10,60) to (150,60). -->
-   <!--     <Line
-     X1="10" Y1="60"
-     X2="150" Y2="60"
-     Stroke="Black"
-     StrokeThickness="4"/>
--->
+
     </Canvas>
 </Window>
